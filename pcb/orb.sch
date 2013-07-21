@@ -2571,7 +2571,7 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
-<part name="JP4" library="SparkFun-Connectors" deviceset="M08" device="1X08"/>
+<part name="MPU6050" library="SparkFun-Connectors" deviceset="M08" device="1X08"/>
 </parts>
 <sheets>
 <sheet>
@@ -2592,7 +2592,7 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <instance part="P+2" gate="VCC" x="50.8" y="60.96" rot="R270"/>
 <instance part="P+3" gate="VCC" x="116.84" y="116.84" rot="R270"/>
 <instance part="P+5" gate="VCC" x="40.64" y="144.78" rot="R270"/>
-<instance part="JP4" gate="G$1" x="27.94" y="96.52"/>
+<instance part="MPU6050" gate="G$1" x="27.94" y="96.52"/>
 </instances>
 <busses>
 </busses>
@@ -2610,7 +2610,7 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <wire x1="139.7" y1="109.22" x2="124.46" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="G$1" pin="2"/>
+<pinref part="MPU6050" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="91.44" x2="45.72" y2="91.44" width="0.1524" layer="91"/>
 <label x="40.64" y="91.44" size="1.778" layer="95"/>
 </segment>
@@ -2721,7 +2721,7 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <label x="129.54" y="134.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="G$1" pin="4"/>
+<pinref part="MPU6050" gate="G$1" pin="4"/>
 <wire x1="33.02" y1="96.52" x2="45.72" y2="96.52" width="0.1524" layer="91"/>
 <label x="40.64" y="96.52" size="1.778" layer="95"/>
 </segment>
@@ -2733,7 +2733,7 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <label x="129.54" y="132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="G$1" pin="3"/>
+<pinref part="MPU6050" gate="G$1" pin="3"/>
 <wire x1="33.02" y1="93.98" x2="45.72" y2="93.98" width="0.1524" layer="91"/>
 <label x="40.64" y="93.98" size="1.778" layer="95"/>
 </segment>
@@ -2745,7 +2745,7 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <label x="124.46" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="G$1" pin="1"/>
+<pinref part="MPU6050" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="88.9" x2="45.72" y2="88.9" width="0.1524" layer="91"/>
 <label x="40.64" y="88.9" size="1.778" layer="95"/>
 </segment>
@@ -2757,7 +2757,7 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <label x="129.54" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="G$1" pin="8"/>
+<pinref part="MPU6050" gate="G$1" pin="8"/>
 <wire x1="33.02" y1="106.68" x2="45.72" y2="106.68" width="0.1524" layer="91"/>
 <label x="40.64" y="106.68" size="1.778" layer="95"/>
 </segment>
