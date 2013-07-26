@@ -45,7 +45,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 41.0, 479.0, 1102.0, 503.0 ],
+						"rect" : [ 547.0, 471.0, 1102.0, 503.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1411,7 +1411,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 188.0, 133.0, 92.0, 18.0 ],
-									"text" : "port orb2-DevB"
+									"text" : "port orb1-DevB"
 								}
 
 							}

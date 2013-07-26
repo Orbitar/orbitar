@@ -1410,7 +1410,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 188.0, 133.0, 92.0, 18.0 ],
-									"text" : "port orb2-DevB"
+									"text" : "port orb1-DevB"
 								}
 
 							}
@@ -1797,7 +1797,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
