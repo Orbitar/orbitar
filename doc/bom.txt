@@ -1,0 +1,8 @@
+Arduino Fio					https://www.sparkfun.com/products/10116
+Female headers				https://www.sparkfun.com/products/115
+Male headers				https://www.sparkfun.com/products/116
+Male headers right angle	https://www.sparkfun.com/products/553
+ULN2803						https://www.sparkfun.com/products/312
+1W RGB LED					ebay
+MPU6050 IMU breakout		ebay
+Orb shield					PCB in github, order from http://oshpark.com
