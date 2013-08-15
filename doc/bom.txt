@@ -1,4 +1,5 @@
 Arduino Fio					https://www.sparkfun.com/products/10116
+Bluetooth Bee				http://www.elecfreaks.com/
 Female headers				https://www.sparkfun.com/products/115
 Male headers				https://www.sparkfun.com/products/116
 Male headers right angle	https://www.sparkfun.com/products/553
