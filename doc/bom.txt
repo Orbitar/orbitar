@@ -1,14 +1,14 @@
 Materials
-Arduino Fio					https://www.sparkfun.com/products/10116
-Bluetooth Bee				http://www.elecfreaks.com/store/bluetooth-bee-hc05masterslave-p-171.html
-Female headers				https://www.sparkfun.com/products/115
-Male headers				https://www.sparkfun.com/products/116
-Male headers right angle	https://www.sparkfun.com/products/553
-ULN2803						https://www.sparkfun.com/products/312
-1W RGB LED					ebay
-MPU6050 IMU breakout		ebay
-Orb shield					PCB in github, order from http://oshpark.com
+Arduino Fio - https://www.sparkfun.com/products/10116
+Bluetooth Bee - http://www.elecfreaks.com/store/bluetooth-bee-hc05masterslave-p-171.html
+Female headers - https://www.sparkfun.com/products/115
+Male headers - https://www.sparkfun.com/products/116
+Male headers right angle - https://www.sparkfun.com/products/553
+ULN2803	- https://www.sparkfun.com/products/312
+1W RGB LED - ebay
+MPU6050 IMU breakout - ebay
+Orb shield - PCB in github, order from http://oshpark.com
 
 Programmers
-Xbee explorer USB			https://www.sparkfun.com/products/8687
-FTDI programmer 3.3V		https://www.sparkfun.com/products/9873			
+Xbee explorer USB - https://www.sparkfun.com/products/8687
+FTDI programmer 3.3V - https://www.sparkfun.com/products/9873			
