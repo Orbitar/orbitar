@@ -171,7 +171,7 @@ void setup() {
     // crystal solution for the UART timer.
 
     // initialize device
-    //Serial.println(F("Initializing I2C devices..."));
+    Serial.println(F("Initializing I2C devices..."));
     mpu.initialize();
 
     // verify connection
@@ -185,7 +185,7 @@ void setup() {
     while (Serial.available() && Serial.read()); // empty buffer again
 
     // load and configure the DMP
-    //Serial.println(F("Initializing DMP..."));
+    Serial.println(F("Initializing DMP..."));
     devStatus = mpu.dmpInitialize();
     
     // make sure it worked (returns 0 if so)
@@ -210,9 +210,9 @@ void setup() {
         // 1 = initial memory load failed
         // 2 = DMP configuration updates failed
         // (if it's going to break, usually the code will be 1)
-        Serial.print(F("DMP Initialization failed (code "));
-        Serial.print(devStatus);
-        Serial.println(F(")"));
+        //Serial.print(F("DMP Initialization failed (code "));
+        //Serial.print(devStatus);
+        //Serial.println(F(")"));
     }
 
     // configure LED for output
@@ -220,7 +220,6 @@ void setup() {
     pinMode(11, OUTPUT); // red
     pinMode(10, OUTPUT); // green
     pinMode(9, OUTPUT); // blue
-
 }
 
 
@@ -238,6 +237,7 @@ void loop() {
       analogWrite(10, inbuf[1]);
       analogWrite(9, inbuf[2]);
     }
+    
     // if programming failed, don't try to do anything
     if (!dmpReady) return;
 
@@ -284,12 +284,19 @@ void loop() {
         mpu.dmpGetQuaternion(&q, fifoBuffer);
         mpu.dmpGetAccel(&aa, fifoBuffer);
         mpu.dmpGetGravity(&gravity, &q);
+        mpu.dmpGetLinearAccel(&aaReal, &aa, &gravity);
         Serial.print("a ");
         Serial.print(int(gravity.x * 100.0));
         Serial.print(" ");
         Serial.print(int(gravity.y * 100.0));
         Serial.print(" ");
         Serial.print(int(gravity.z * 100.0));
+        Serial.print(" ");
+        Serial.print(int(aaReal.x));
+        Serial.print(" ");
+        Serial.print(int(aaReal.y));
+        Serial.print(" ");
+        Serial.print(int(aaReal.z));
         Serial.println(" b");
 
 
