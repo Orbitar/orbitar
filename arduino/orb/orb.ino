@@ -125,6 +125,9 @@ uint16_t fifoCount;     // count of all bytes currently in FIFO
 uint8_t fifoBuffer[64]; // FIFO storage buffer
 
 // orientation/motion vars
+int16_t ax, ay, az;
+int16_t gx, gy, gz;
+
 Quaternion q;           // [w, x, y, z]         quaternion container
 VectorInt16 aa;         // [x, y, z]            accel sensor measurements
 VectorInt16 aaReal;     // [x, y, z]            gravity-free accel sensor measurements
@@ -132,6 +135,7 @@ VectorInt16 aaWorld;    // [x, y, z]            world-frame accel sensor measure
 VectorFloat gravity;    // [x, y, z]            gravity vector
 float euler[3];         // [psi, theta, phi]    Euler angle container
 float ypr[3];           // [yaw, pitch, roll]   yaw/pitch/roll container and gravity vector
+
 
 // packet structure for InvenSense teapot demo
 uint8_t teapotPacket[14] = { '$', 0x02, 0,0, 0,0, 0,0, 0,0, 0x00, 0x00, '\r', '\n' };
@@ -281,6 +285,7 @@ void loop() {
         fifoCount -= packetSize;
 
         // gravity
+        mpu.getMotion6(&ax, &ay, &az, &gx, &gy, &gz);
         mpu.dmpGetQuaternion(&q, fifoBuffer);
         mpu.dmpGetAccel(&aa, fifoBuffer);
         mpu.dmpGetGravity(&gravity, &q);
@@ -292,11 +297,27 @@ void loop() {
         Serial.print(" ");
         Serial.print(int(gravity.z * 100.0));
         Serial.print(" ");
-        Serial.print(int(aaReal.x));
+        
+        Serial.print(gx);
         Serial.print(" ");
-        Serial.print(int(aaReal.y));
+        Serial.print(gy);
         Serial.print(" ");
-        Serial.print(int(aaReal.z));
+        Serial.print(gz);
+
+        /*
+        Serial.print(int(q.x * 100.0));
+        Serial.print(" ");
+        Serial.print(int(q.y * 100.0));
+        Serial.print(" ");
+        Serial.print(int(q.z * 100.0));
+        */
+        /*
+        Serial.print(aaReal.x);
+        Serial.print(" ");
+        Serial.print(aaReal.y);
+        Serial.print(" ");
+        Serial.print(aaReal.z);
+        */
         Serial.println(" b");
 
 
