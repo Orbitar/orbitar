@@ -7,11 +7,13 @@ void setup() {
   pinMode(6, INPUT); // right second
   pinMode(7, INPUT); // // right third
 
-  Serial.begin(9600);
+  //Serial.begin(9600);
+  Serial.begin(57600);
 }
 
 void loop() {
   // left first
+  Serial.print("a");
   Serial.print(digitalRead(12));
   Serial.print(" ");
   Serial.print(digitalRead(4));
@@ -22,6 +24,7 @@ void loop() {
   Serial.print(" ");
   Serial.print(digitalRead(6));
   Serial.print(" ");
-  Serial.println(digitalRead(7));
+  Serial.print(digitalRead(7));
+  Serial.println("b");
   delay(1);
 }
