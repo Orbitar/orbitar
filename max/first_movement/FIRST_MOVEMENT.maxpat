@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 50.0, 44.0, 1231.0, 730.0 ],
+		"rect" : [ 52.0, 44.0, 1231.0, 730.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -342,7 +342,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64"
 						}
 ,
@@ -701,7 +701,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x64"
 										}
 ,
@@ -1326,7 +1326,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x64"
 										}
 ,
@@ -3471,7 +3471,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64"
 						}
 ,
@@ -3829,7 +3829,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x64"
 										}
 ,
@@ -4554,7 +4554,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64"
 						}
 ,
@@ -5192,7 +5192,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64"
 						}
 ,
@@ -5752,7 +5752,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64"
 						}
 ,
@@ -6802,7 +6802,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64"
 						}
 ,
@@ -8229,7 +8229,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64"
 						}
 ,
@@ -9294,7 +9294,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64"
 						}
 ,
@@ -9690,11 +9690,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 586.0, 272.0, 800.0, 485.0 ],
+						"rect" : [ 420.0, 73.0, 951.0, 540.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -9713,6 +9713,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -9754,11 +9755,11 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x64"
 										}
 ,
-										"rect" : [ 578.0, 44.0, 640.0, 480.0 ],
+										"rect" : [ 578.0, 44.0, 800.0, 547.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -9777,6 +9778,7 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-71",
@@ -9978,10 +9980,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 261.0, 228.5, 30.0, 20.0 ],
-													"saved_object_attributes" : 													{
-														"attr_comment" : ""
-													}
-,
 													"text" : "in 2"
 												}
 
@@ -10707,8 +10705,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
-													"patching_rect" : [ 313.0, 135.0, 32.5, 20.0 ],
-													"text" : "* 1."
+													"patching_rect" : [ 313.0, 135.0, 44.0, 20.0 ],
+													"text" : "+ 0.85"
 												}
 
 											}
@@ -12294,7 +12292,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64"
 						}
 ,
@@ -12331,7 +12329,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x64"
 										}
 ,
@@ -12676,7 +12674,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 3,
+															"revision" : 4,
 															"architecture" : "x64"
 														}
 ,
@@ -13301,7 +13299,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 3,
+															"revision" : 4,
 															"architecture" : "x64"
 														}
 ,
@@ -16473,7 +16471,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64"
 						}
 ,
@@ -18758,42 +18756,42 @@
 		"parameters" : 		{
 			"obj-11::obj-13.5::obj-5" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-11::obj-13.4::obj-5" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-11::obj-13.1::obj-5" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"obj-11::obj-13.3::obj-5" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-11::obj-13.1::obj-5" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"obj-11::obj-13.2::obj-5" : [ "live.gain~[2]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "polysynth.maxpat",
-				"bootpath" : "/Users/NatanWythe/Desktop/orbitar/max/first_movement",
+				"bootpath" : "/Users/NatanWythe/Desktop/MOSTRECENTFROMKATE/first_movement",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lydian.txt",
-				"bootpath" : "/Users/NatanWythe/Desktop/orbitar/max/first_movement",
+				"bootpath" : "/Users/NatanWythe/Desktop/MOSTRECENTFROMKATE/first_movement",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sample.maxpat",
-				"bootpath" : "/Users/NatanWythe/Desktop/orbitar/max/first_movement",
+				"bootpath" : "/Users/NatanWythe/Desktop/MOSTRECENTFROMKATE/first_movement",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "newverb~",
-				"bootpath" : "/Users/NatanWythe/Desktop/orbitar/max/first_movement",
+				"bootpath" : "/Users/NatanWythe/Desktop/MOSTRECENTFROMKATE/first_movement",
 				"patcherrelativepath" : ".",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "randomlyd.txt",
-				"bootpath" : "/Users/NatanWythe/Desktop/orbitar/max/first_movement",
+				"bootpath" : "/Users/NatanWythe/Desktop/MOSTRECENTFROMKATE/first_movement",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
