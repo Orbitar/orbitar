@@ -1,0 +1,4 @@
+1, midinote 45 100;
+2, midinote 50 100;
+3, midinote 54 100;
+4, midinote 56 100;
