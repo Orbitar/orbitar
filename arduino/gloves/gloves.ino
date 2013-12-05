@@ -8,7 +8,8 @@ void setup() {
   pinMode(7, INPUT); // // right third
 
   //Serial.begin(9600);
-  Serial.begin(57600);
+  //Serial.begin(57600);
+  Serial.begin(115200);
 }
 
 void loop() {
