@@ -107,7 +107,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 517.660034, 384.0, 36.0, 20.0 ],
-					"presentation_rect" : [ 501.660034, 334.0, 0.0, 0.0 ],
 					"text" : "sel 0"
 				}
 
@@ -122,7 +121,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 448.0, 384.0, 36.0, 20.0 ],
-					"presentation_rect" : [ 461.0, 334.0, 0.0, 0.0 ],
 					"text" : "sel 1"
 				}
 
@@ -135,8 +133,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 507.839966, 307.0, 59.160034, 59.160034 ],
-					"presentation_rect" : [ 488.5, 301.0, 0.0, 0.0 ]
+					"patching_rect" : [ 507.839966, 307.0, 59.160034, 59.160034 ]
 				}
 
 			}
@@ -150,7 +147,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 363.660034, 384.0, 36.0, 20.0 ],
-					"presentation_rect" : [ 330.660034, 331.0, 0.0, 0.0 ],
 					"text" : "sel 0"
 				}
 
@@ -165,7 +161,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 277.0, 384.0, 36.0, 20.0 ],
-					"presentation_rect" : [ 290.0, 331.0, 0.0, 0.0 ],
 					"text" : "sel 1"
 				}
 
@@ -178,8 +173,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 363.660034, 307.0, 59.160034, 59.160034 ],
-					"presentation_rect" : [ 317.5, 298.0, 0.0, 0.0 ]
+					"patching_rect" : [ 363.660034, 307.0, 59.160034, 59.160034 ]
 				}
 
 			}
@@ -193,7 +187,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 197.660034, 384.0, 36.0, 20.0 ],
-					"presentation_rect" : [ 167.660034, 332.0, 0.0, 0.0 ],
 					"text" : "sel 0"
 				}
 
@@ -208,7 +201,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 114.0, 384.0, 36.0, 20.0 ],
-					"presentation_rect" : [ 127.0, 332.0, 0.0, 0.0 ],
 					"text" : "sel 1"
 				}
 
@@ -221,8 +213,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 209.580017, 307.0, 59.160034, 59.160034 ],
-					"presentation_rect" : [ 154.5, 299.0, 0.0, 0.0 ]
+					"patching_rect" : [ 209.580017, 307.0, 59.160034, 59.160034 ]
 				}
 
 			}
@@ -1032,7 +1023,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 99.0, 44.0, 790.0, 399.0 ],
+						"rect" : [ 467.0, 230.0, 790.0, 399.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1051,7 +1042,23 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-14",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 143.0, 6.0, 158.0, 47.0 ],
+									"text" : "1. Uncheck the toggle box in the main patch that says \"allow data to pass.\""
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -1076,8 +1083,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 229.55896, 33.190994, 165.0, 74.0 ],
-									"text" : "2b. Alternatively, select a potentiometer such as a fader or pot in Ableton and click this message box ----> to map it to controller 1, 1."
+									"patching_rect" : [ 232.55896, 70.190994, 165.0, 74.0 ],
+									"text" : "3b. Alternatively, select a potentiometer such as a fader or pot in Ableton and click this message box ----> to map it to controller 1, 1."
 								}
 
 							}
@@ -1091,8 +1098,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 21.0, 107.0, 185.0, 74.0 ],
-									"text" : "2a. Select a switch in Ableton (while in MIDI view.) Then press one of the numbers below. The Ableton controller will map to the message sent from MaxMSP."
+									"patching_rect" : [ 24.0, 144.0, 185.0, 74.0 ],
+									"text" : "3a. Select a switch in Ableton (while in MIDI view.) Then press one of the numbers below. The Ableton controller will map to the message sent from MaxMSP."
 								}
 
 							}
@@ -1102,12 +1109,12 @@
 									"fontsize" : 12.0,
 									"frgb" : 0.0,
 									"id" : "obj-6",
-									"linecount" : 4,
+									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 21.0, 16.0, 150.0, 60.0 ],
-									"text" : "1. Make sure you open Ableton first. Go into MIDI view (upper right hand corner of Ableton.)\n"
+									"patching_rect" : [ 24.0, 59.690979, 172.0, 74.0 ],
+									"text" : "2. Open Ableton. Make sure 'remote' is turned in MIDI sync prefarences (in Ableton.) Go into MIDI view (upper right hand corner of Ableton.)"
 								}
 
 							}
@@ -1232,7 +1239,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 238.55896, 124.190979, 97.0, 20.0 ],
+									"patching_rect" : [ 241.55896, 161.190979, 97.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -1259,7 +1266,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 222.0, 210.0, 32.5, 18.0 ],
+									"patching_rect" : [ 225.0, 247.0, 32.5, 18.0 ],
 									"text" : "6"
 								}
 
@@ -1273,7 +1280,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 180.0, 210.0, 32.5, 18.0 ],
+									"patching_rect" : [ 183.0, 247.0, 32.5, 18.0 ],
 									"text" : "5"
 								}
 
@@ -1287,7 +1294,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 140.0, 210.0, 32.5, 18.0 ],
+									"patching_rect" : [ 143.0, 247.0, 32.5, 18.0 ],
 									"text" : "4"
 								}
 
@@ -1301,7 +1308,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 106.0, 210.0, 32.5, 18.0 ],
+									"patching_rect" : [ 109.0, 247.0, 32.5, 18.0 ],
 									"text" : "3"
 								}
 
@@ -1315,7 +1322,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 66.0, 210.0, 32.5, 18.0 ],
+									"patching_rect" : [ 69.0, 247.0, 32.5, 18.0 ],
 									"text" : "2"
 								}
 
@@ -1329,7 +1336,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 29.0, 210.0, 32.5, 18.0 ],
+									"patching_rect" : [ 32.0, 247.0, 32.5, 18.0 ],
 									"text" : "1"
 								}
 
@@ -1343,7 +1350,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "float" ],
-									"patching_rect" : [ 29.0, 281.0, 110.0, 20.0 ],
+									"patching_rect" : [ 32.0, 318.0, 110.0, 20.0 ],
 									"text" : "makenote 127 127"
 								}
 
@@ -1357,7 +1364,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 157.75, 263.0, 77.0, 20.0 ],
+									"patching_rect" : [ 160.75, 300.0, 77.0, 20.0 ],
 									"text" : "r midiDevice"
 								}
 
@@ -1370,7 +1377,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 0,
-									"patching_rect" : [ 29.0, 325.0, 61.0, 20.0 ],
+									"patching_rect" : [ 32.0, 362.0, 61.0, 20.0 ],
 									"text" : "noteout 1"
 								}
 
@@ -1384,7 +1391,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 406.55896, 77.190979, 74.0, 18.0 ],
+									"patching_rect" : [ 409.55896, 114.190979, 74.0, 18.0 ],
 									"text" : "0, 127 1000"
 								}
 
@@ -1398,7 +1405,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 360.55896, 124.190979, 46.0, 20.0 ],
+									"patching_rect" : [ 363.55896, 161.190979, 46.0, 20.0 ],
 									"text" : "line"
 								}
 
@@ -1412,7 +1419,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 238.55896, 152.190979, 77.0, 20.0 ],
+									"patching_rect" : [ 241.55896, 189.190979, 77.0, 20.0 ],
 									"text" : "r midiDevice"
 								}
 
@@ -1425,7 +1432,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 0,
-									"patching_rect" : [ 360.55896, 152.190979, 59.0, 20.0 ],
+									"patching_rect" : [ 363.55896, 189.190979, 59.0, 20.0 ],
 									"text" : "ctlout 1 1"
 								}
 
@@ -1515,7 +1522,7 @@
 									"destination" : [ "obj-17", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 167.25, 312.0, 38.5, 312.0 ],
+									"midpoints" : [ 170.25, 349.0, 41.5, 349.0 ],
 									"source" : [ "obj-18", 0 ]
 								}
 
@@ -10485,7 +10492,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 285.0, 426.0, 50.0, 18.0 ],
-													"text" : "110"
+													"text" : "82"
 												}
 
 											}
@@ -12133,7 +12140,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 291.0, 426.0, 50.0, 18.0 ],
-													"text" : "110"
+													"text" : "82"
 												}
 
 											}
